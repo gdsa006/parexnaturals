@@ -3,7 +3,14 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 }
-
+.footer-nav{
+background-color: #eee;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.footer-nav li a{
+	color:#111 !important;
+}
 .container {
 	
 }
@@ -64,7 +71,7 @@ body {
 }
 
 .viok-header-logo {
-	background: white;
+	background: #f5f4f4;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid rgb(231, 231, 231);
@@ -84,7 +91,13 @@ body {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 16px;
 }
-
+#main_navbar.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:99;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.62);
+}
 .navbar {
 	font-family: 'Muli', sans-serif;
 	font-size: 11px;
@@ -96,7 +109,7 @@ body {
 	background-image: linear-gradient(to bottom,#72ba11,#479408);
 	background-repeat: repeat-x;
 	margin-bottom: 0;
-	border:0;
+	border-color: #296104;
 }
 
 @media ( min-width :768px) {
@@ -120,6 +133,7 @@ body {
 	-moz-transition-property: opacity;
 	-o-transition-property: opacity;
 	transition-property: opacity;
+
 }
 
 .carousel-fade .carousel-inner .active {
@@ -148,6 +162,11 @@ body {
 	background-color: #468c08;
 }
 
+.carousel-caption {
+     top: 50%;
+     transform: translateY(-50%);
+     bottom: initial;
+   }
 .navbar-brand {
 	margin-top: -6px;
 }
@@ -159,7 +178,9 @@ body {
 	font-family: 'Roboto', sans-serif;
 	border-bottom: 1px solid rgb(231, 231, 231);
 }
+.viok-services .wrapper{
 
+}
 h3 {
 	color: #3b475f;
 	font-family: 'Titillium Web', sans-serif;
