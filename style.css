@@ -115,6 +115,7 @@ body {
 	background-repeat: repeat-x;
 	margin-bottom: 0;
 	border-color: transparent;
+	border:0px solid transparent !important;
 	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
 	-webkit-transition: box-shadow 500ms ease-out;
 	-moz-transition: box-shadow 500ms ease-out;
