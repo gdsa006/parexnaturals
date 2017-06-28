@@ -566,10 +566,10 @@ a:hover{color:rgb(117, 59, 181);}
 }
 @media(max-width: 768px){
 	body{
-	padding-top:14px;
+	padding-top:13px;
 }
 .carousel .carousel-inner{
-	min-height: 250px;
+	min-height: 270px;
 }
 .carousel .carousel-inner .container{
 	position: absolute;
