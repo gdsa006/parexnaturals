@@ -4,9 +4,9 @@ body {
 	background-attachment: fixed;
 }
 .footer-nav{
-background-color: #eee;
-border: 1px solid #ccc;
-border-radius: 5px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	border-radius: 5px;
 }
 .footer-nav li a{
 	color:#111 !important;
@@ -92,11 +92,16 @@ border-radius: 5px;
 	font-size: 16px;
 }
 #main_navbar.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:99;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.62);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:99;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.62);
+	-webkit-transition: box-shadow 500ms ease-out;
+	-moz-transition: box-shadow 500ms ease-out;
+	-o-transition: box-shadow 500ms ease-out;
+	transition: box-shadow 500ms ease-out;
+
 }
 .navbar {
 	font-family: 'Muli', sans-serif;
@@ -110,6 +115,11 @@ border-radius: 5px;
 	background-repeat: repeat-x;
 	margin-bottom: 0;
 	border-color: #296104;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
+	-webkit-transition: box-shadow 500ms ease-out;
+	-moz-transition: box-shadow 500ms ease-out;
+	-o-transition: box-shadow 500ms ease-out;
+	transition: box-shadow 500ms ease-out;
 }
 
 @media ( min-width :768px) {
@@ -163,10 +173,10 @@ border-radius: 5px;
 }
 
 .carousel-caption {
-     top: 50%;
-     transform: translateY(-50%);
-     bottom: initial;
-   }
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+}
 .navbar-brand {
 	margin-top: -6px;
 }
@@ -208,8 +218,8 @@ h6 {
 	font-weight: bolder;
 }
 .viok-carousel-part h1{
-color:#ffeb3b;
-text-transform: uppercase;
+	color:#ffeb3b;
+	text-transform: uppercase;
 }
 .viok-blue-light {
 	padding: 30px 0px;
