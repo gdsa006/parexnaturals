@@ -564,3 +564,19 @@ a:hover{color:rgb(117, 59, 181);}
 	border:1px solid transparent;
 	background-color: #000;
 }
+@media(max-width: 768px){
+	body{
+	padding-top:14px;
+}
+.carousel .carousel-inner{
+	min-height: 250px;
+}
+.carousel .carousel-inner .container{
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.navbar-toggle{
+	background-color: #fff;
+}
+}
