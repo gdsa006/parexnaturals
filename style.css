@@ -114,7 +114,7 @@ body {
 	background-image: linear-gradient(to bottom,#72ba11,#479408);
 	background-repeat: repeat-x;
 	margin-bottom: 0;
-	border-color: #296104;
+	border-color: transparent;
 	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
 	-webkit-transition: box-shadow 500ms ease-out;
 	-moz-transition: box-shadow 500ms ease-out;
