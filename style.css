@@ -569,7 +569,8 @@ a:hover{color:rgb(117, 59, 181);}
 	body{
 	padding-top:11px;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
+	background-repeat: space;
 }
 .carousel .carousel-inner{
 	min-height: 270px;
